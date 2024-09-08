@@ -87,7 +87,7 @@ public class Banco {
     }
 
     public double impuestosACobrar() {
-        double impuestosACobrarTotal = 0;
+        double impuestosACobrarTotal = 0.0;
 
         for (Transaccion transaccion : transacciones) {
             impuestosACobrarTotal += transaccion.impuesto();
@@ -96,7 +96,7 @@ public class Banco {
     }
 
     public double montoTotalDeTransacciones() {
-        double montoTotalDeTransaccionesTotal = 0;
+        double montoTotalDeTransaccionesTotal = 0.0;
         for (Transaccion transaccion : transacciones) {
             montoTotalDeTransaccionesTotal += transaccion.getMonto();
         }
