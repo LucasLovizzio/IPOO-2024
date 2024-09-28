@@ -1,7 +1,6 @@
 package ar.unnoba.edu.ipoo;
 
 import java.util.Date;
-import java.util.Vector;
 
 public class CuentaCorriente extends CuentaBancaria {
     private double limiteMinimo;
