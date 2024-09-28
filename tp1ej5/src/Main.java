@@ -1,8 +1,11 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-package ar.unnoba.edu.ipoo;
 
 
+import ar.unnoba.edu.ipoo.ClienteCorreo;
+import ar.unnoba.edu.ipoo.Contacto;
+import ar.unnoba.edu.ipoo.Correo;
+import ar.unnoba.edu.ipoo.Cuenta;
 
 public class Main {
     public static void main(String[] args) {
