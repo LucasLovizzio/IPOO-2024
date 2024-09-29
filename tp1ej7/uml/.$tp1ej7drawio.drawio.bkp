@@ -94,7 +94,7 @@
             <mxPoint x="300" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ECgiACsWVQiAmtKmH3Md-46" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ECgiACsWVQiAmtKmH3Md-46" value="Main" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="114" width="163" height="124" as="geometry" />
         </mxCell>
         <mxCell id="ECgiACsWVQiAmtKmH3Md-47" value="- nombre : String&lt;br&gt;- apellido : String&lt;br&gt;- dni : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ECgiACsWVQiAmtKmH3Md-46">
