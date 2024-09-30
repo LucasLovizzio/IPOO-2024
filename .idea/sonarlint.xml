@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="tp3ej2-tp1ej3_2.0" value="tp3ej2-tp1ej4_2.0" />
+      </map>
+    </option>
+  </component>
+</project>
