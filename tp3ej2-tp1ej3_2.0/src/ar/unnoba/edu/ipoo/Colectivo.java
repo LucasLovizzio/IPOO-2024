@@ -89,6 +89,6 @@ public class Colectivo implements Frecuencia{
 
     @Override
     public Date ultimoViaje() {
-        return
+        return getUltimoViaje();
     }
 }
