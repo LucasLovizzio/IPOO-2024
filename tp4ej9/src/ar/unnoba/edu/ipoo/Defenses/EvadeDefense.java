@@ -5,6 +5,6 @@ import ar.unnoba.edu.ipoo.DefenseStrategy;
 public class EvadeDefense implements DefenseStrategy {
     @Override
     public int defend(int attack) {
-        return 40;
+        return attack - 40;
     }
 }
