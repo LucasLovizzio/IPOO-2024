@@ -8,7 +8,7 @@
 /dataSources.local.xml
 
 # Ignorar carpetas generadas
-/out/
+/out/production
 /.idea/
 
 # Ignorar archivos de configuración de IntelliJ
