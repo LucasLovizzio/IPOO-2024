@@ -22,9 +22,11 @@ public class CuentaCorriente extends CuentaBancaria {
         this.limiteMinimo = limiteMinimo;
     }
 
-    public void extraer(double monto) {
-        if (this.getSaldo() - monto >= this.getLimiteMinimo()){
-            super.extraer(monto);
+    public void extraer(double monto) throws SuperaLimiteMinimoException {
+
+        if (getSaldo() - monto < getLimiteMinimo()) {
+            throw new SuperaLimiteMinimoException("Supera el limite minimo");
         }
+        super.extraer(monto);
     }
 }
