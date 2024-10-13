@@ -51,7 +51,7 @@ public class CuentaBancaria {
 
     // Metodos
 
-    public void  extraer(double monto) {
+    public void  extraer(double monto) throws SuperaLimiteMinimoException {
         setSaldo(getSaldo()-monto);
         transacciones.add(new Transaccion(monto, "Extraccion"));
     }
