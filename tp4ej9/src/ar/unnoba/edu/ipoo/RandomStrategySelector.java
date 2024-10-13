@@ -3,7 +3,6 @@ package ar.unnoba.edu.ipoo;
 import ar.unnoba.edu.ipoo.Attacks.*;
 import ar.unnoba.edu.ipoo.Defenses.*;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class RandomStrategySelector {
