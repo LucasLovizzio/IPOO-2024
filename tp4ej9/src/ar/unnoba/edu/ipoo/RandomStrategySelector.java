@@ -26,13 +26,13 @@ public class RandomStrategySelector {
             new CounterDefense()
     };
 
-    public AttackStrategy getRandomAttackStrategy() {
+    public static AttackStrategy getRandomAttackStrategy() {
         int length = ATTACK_STRATEGIES.length;
-        return ATTACK_STRATEGIES[rand.nextInt(length)-1];
+        return ATTACK_STRATEGIES[rand.nextInt(length-1)];
     }
 
-    public DefenseStrategy getRandomDefenseStrategy() {
+    public static DefenseStrategy getRandomDefenseStrategy() {
         int length = DEFENSE_STRATEGIES.length;
-        return DEFENSE_STRATEGIES[rand.nextInt(length)-1];
+        return DEFENSE_STRATEGIES[rand.nextInt(length-1)];
     }
 }
