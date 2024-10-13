@@ -27,7 +27,7 @@ public class RandomStrategySelector {
             new CounterDefense()
     };
 
-    public AttackStrategy getRandomAttackStrategies() {
+    public AttackStrategy getRandomAttackStrategy() {
         int length = ATTACK_STRATEGIES.length;
         return ATTACK_STRATEGIES[rand.nextInt(length)-1];
     }
