@@ -1,0 +1,6 @@
+# Ignorar carpetas generadas
+/out/
+/.idea/
+
+# Ignorar archivos de configuración de IntelliJ
+*.iml
