@@ -31,11 +31,17 @@ public class CajaDeAhorro extends CuentaBancaria
         this.limiteMinimo = limiteMinimo;
     }
 
-    public void extraer(double monto) {
-        if ( extraccionesRestantes > 0 && this.getSaldo() - monto >= this.getLimiteMinimo()) {
-            super.extraer(monto);
-            setExtraccionesRestantes(getExtraccionesRestantes() - 1);
+    public void extraer(double monto) throws SuperaLimiteMinimoException {
+
+        if (extraccionesRestantes == 0) {
+            throw new SuperaCantidadExtraccionesException("0 extracciones restantes");
         }
+        if (getSaldo() - monto < this.getLimiteMinimo()){
+            throw new SuperaLimiteMinimoException("Supera el limite minimo");
+        }
+
+        super.extraer(monto);
+        setExtraccionesRestantes(getExtraccionesRestantes() - 1);
     }
 
     public void reiniciarExtraccionesRestantes(){
